@@ -1,0 +1,76 @@
+table{
+	position: center;
+	color: white;
+	margin: 20px;
+}
+table, th, td {
+  border: 2px solid #A6E8FF ;
+  border-collapse: collapse;
+  border-radius: 10px;
+  padding: 20px;
+}
+th, td {
+  background-color: #1589D8 ;
+}
+body{
+	font-family: 'Arial';
+	background-color: #A6E8FF;
+	margin: 0;
+}
+header{
+  background-color: white;
+  height: 180px;
+  opacity: 0.9;
+}
+header .cabeza{
+	justify-content: space-between;
+	flex-direction: row;
+	display: flex;
+}  
+header p{
+	margin: 50px;
+	margin-top: 70px;
+	font-weight: bold;
+	font-size: 24px;
+}
+header nav{
+  flex-direction: row;
+  padding-bottom: 0;
+  padding-left: -15px;
+}
+header a{
+	text-decoration: none;
+	color: black;
+}
+header a:hover{
+  color: darkgray;
+}
+footer{
+	background-color: #34B6E2;
+	height: 75px;
+	margin-top: 20px;
+}
+
+.logo{
+	width: 180px;
+	height: 180px;
+}
+.lobo{
+	width: 100px;
+	height: 100px;
+	padding: 30px;
+	margin-right: 20px;
+}
+.inicio {
+	margin-right: 550px;
+}
+.derechos{
+	font-size: 12px;
+	text-align: right;
+	font-weight: bold;
+	padding-top: 50px;
+	margin-right: 20px;
+}
+#cuerpo p{
+	text-align: center;
+}

@@ -1,0 +1,128 @@
+body{
+	color: black;
+	background-color: rgb(255, 255, 255);
+	background-image: url(https://scontent.fhmo6-1.fna.fbcdn.net/v/t1.18169-9/15094303_1472591832768369_3705130095445524651_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeEQ_9ehy8y21wTZ1J-ljAhCFLts8037X5oUu2zzTftfmuAcQm06ENtLaIGYEKtGYbiY6hrEKm3k9RPtUUodCqIH&_nc_ohc=5sKehm4TMLkAX_y8_7e&_nc_ht=scontent.fhmo6-1.fna&oh=00_AT8i33Qw5agA8iuuocZcCT6297l7iqBe8QEW958gXL41sg&oe=62D40246);
+	background-repeat: no-repeat;
+	background-position: center 0%;
+	background-size: cover;
+	margin: 0px;
+	margin-top: -20px;
+	font-family: 'Arial';
+}
+header{
+  background-color: white;
+  height: 200px;
+  opacity: 0.9;
+}
+header .cabeza{
+	justify-content: space-between;
+	flex-direction: row;
+	display: flex;
+}  
+header p{
+	margin: 50px;
+	margin-top: 90px;
+	font-weight: bold;
+	font-size: 24px;
+}
+header nav{
+  flex-direction: row;
+  padding-bottom: 0;
+  padding-left: -15px;
+}
+header a{
+	text-decoration: none;
+	color: black;
+}
+header a:hover{
+  color: darkgray;
+}
+footer{
+	background-color: white;
+	margin: 0;
+	margin-bottom: -20px;
+	height: 90px;
+	margin-top: 20px ;
+}
+.fin{
+	padding-top: 30px;
+	padding-right: 20px;
+}
+footer a{
+	margin: 16px;
+}
+footer .fin{
+	justify-content: flex-end;
+	flex-direction: row;
+	display: flex;
+}
+#cuerpo .carta{
+	background-color: whitesmoke;
+	margin: 20px;
+	border-radius: 10px;
+	opacity: 0.8;
+}
+.carta{
+	padding: 30px;
+	height: 200px;
+	width: 890px;
+}
+.logo{
+	width: 180px;
+	height: 180px;
+	padding-top: 20px;
+}
+.lobo{
+	width: 100px;
+	height: 100px;
+	padding: 50px;
+}
+#cuerpo p{
+	text-align: justify;
+}
+#cuerpo h1{
+	text-align: center;
+}
+#cuerpo h3{
+	text-align: justify;
+}
+hr {
+	height: 5px;
+	background-color: #3CB7E1;
+}
+.inicio {
+	margin-right: 550px;
+}
+footer a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+footer a:hover{
+  color: darkgray;
+}
+.derechos{
+	font-size: 12px;
+	padding: 10px;
+	margin-right: 25px;
+	margin-top: -10px;
+	text-align: right;
+	font-weight: bold;
+}
+.datos{
+	background-color: whitesmoke;
+	border-radius: 20px;
+	margin: 20px;
+	padding: 30px;
+	width: 400px;
+
+	opacity: 1;
+}
+.info{
+	justify-content: flex;
+	flex-direction: row;
+	display: flex;
+}
+.cartas{
+	
+}
